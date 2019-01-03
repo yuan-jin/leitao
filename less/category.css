@@ -1,0 +1,126 @@
+/* 定义变量 */
+body {
+  padding: .45rem 0;
+  height: 100vw;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  width: 100%;
+  height: 0.45rem;
+  background-color: #006699;
+  text-align: center;
+  padding: 0 0.45rem;
+}
+#header .left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.45rem;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: #fff;
+}
+#header form input {
+  color: #333;
+  text-align: left;
+  background-color: #fff;
+  margin-bottom: 0;
+  font-size: .14rem;
+}
+#header .center {
+  margin: 0;
+  font-weight: normal;
+  line-height: 0.45rem;
+  color: #fff;
+}
+#header .right {
+  position: absolute;
+  width: 0.45rem;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  right: 0;
+  top: 0;
+  color: #fff;
+}
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 999;
+  width: 100%;
+  height: 0.45rem;
+  background-color: #006699;
+}
+#footer a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.05rem 0px;
+}
+#footer a.active {
+  color: orange;
+}
+#footer a i {
+  line-height: 0.14rem;
+  vertical-align: middle;
+}
+#footer a span {
+  display: block;
+  line-height: 0.14rem;
+  transform: translateY(-0.02rem);
+}
+#main {
+  display: flex;
+  background-color: #cccc;
+  height: 100%;
+}
+#main .category-left {
+  width: 0.8rem;
+  position: relative;
+  /* 区域滚动的子容器 现在默认高度没有超过父元素的mui-scroll-wrapper的高度 设置一个超过的高度 */
+}
+#main .category-left .mui-scroll {
+  /* 设置一个最小高 当内容没有超过这个最小高就生效这个最小高 超过 是超过的高 */
+  min-height: 100.1%;
+}
+#main .category-left ul li.active a {
+  background-color: #cccc;
+}
+#main .category-left ul li a {
+  display: block;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+#main .category-right {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+#main .category-right .mui-scroll {
+  /* 设置一个最小高 当内容没有超过这个最小高就生效这个最小高 超过 是超过的高 */
+  min-height: 100.1%;
+}
+#main .category-right .mui-row {
+  /* mui-row里面的都是col列 这些列 是相对的定位在标准流 受到padding的影响 */
+  padding: 0.1rem;
+}
+#main .category-right .mui-row a {
+  display: block;
+  background-color: #fff;
+  text-align: center;
+}
+#main .category-right .mui-row a img {
+  width: 100%;
+}

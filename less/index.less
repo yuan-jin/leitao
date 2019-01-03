@@ -1,0 +1,71 @@
+// 引入less.base文件(公共样式文件)
+@import url(./base.less);
+
+
+
+
+
+// 导航栏的样式
+#nav{
+    padding: 10px;
+    background-color: @white-color;
+
+    img{
+        width: 100%;
+    }
+}
+
+// 广告区域
+#banner{
+    padding: .1rem 0;
+    display: flex;
+    
+    .left{
+        a{
+            display: flex;
+            
+            img{
+                width: 50%;
+                height: 1.2rem;
+            }
+        }
+    }
+    .right{
+        flex: 1;
+        a{
+            display: block;
+            img{
+                width: 100%;
+                height: 2.4rem;
+            }
+        }
+    }
+}
+
+// 女鞋
+#brand,
+#sport,
+#women,
+#men,
+#tupo{
+    .title{
+        width: 100%;
+        a{
+            display: block;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .content{
+        a{
+            display: block;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+

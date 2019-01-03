@@ -1,0 +1,95 @@
+/* 定义变量 */
+* {
+  margin: 0;
+  padding: 0;
+}
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 999;
+  width: 100%;
+  height: 0.45rem;
+  background-color: #006699;
+}
+#footer a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.05rem 0px;
+}
+#footer a.active {
+  color: orange;
+}
+#footer a i {
+  line-height: 0.14rem;
+  vertical-align: middle;
+}
+#footer a span {
+  display: block;
+  line-height: 0.14rem;
+  transform: translateY(-0.02rem);
+}
+#nav {
+  padding: 10px;
+  background-color: #fff;
+}
+#nav img {
+  width: 100%;
+}
+#banner {
+  padding: .1rem 0;
+  display: flex;
+}
+#banner .left a {
+  display: flex;
+}
+#banner .left a img {
+  width: 50%;
+  height: 1.2rem;
+}
+#banner .right {
+  flex: 1;
+}
+#banner .right a {
+  display: block;
+}
+#banner .right a img {
+  width: 100%;
+  height: 2.4rem;
+}
+#brand .title,
+#sport .title,
+#women .title,
+#men .title,
+#tupo .title {
+  width: 100%;
+}
+#brand .title a,
+#sport .title a,
+#women .title a,
+#men .title a,
+#tupo .title a {
+  display: block;
+}
+#brand .title a img,
+#sport .title a img,
+#women .title a img,
+#men .title a img,
+#tupo .title a img {
+  width: 100%;
+}
+#brand .content a,
+#sport .content a,
+#women .content a,
+#men .content a,
+#tupo .content a {
+  display: block;
+}
+#brand .content a img,
+#sport .content a img,
+#women .content a img,
+#men .content a img,
+#tupo .content a img {
+  width: 100%;
+}

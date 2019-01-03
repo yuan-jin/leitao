@@ -1,0 +1,79 @@
+/* 定义变量 */
+body {
+  padding: .45rem 0;
+  height: 100vw;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  width: 100%;
+  height: 0.45rem;
+  background-color: #006699;
+  text-align: center;
+  padding: 0 0.45rem;
+}
+#header .left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.45rem;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  color: #fff;
+}
+#header form input {
+  color: #333;
+  text-align: left;
+  background-color: #fff;
+  margin-bottom: 0;
+  font-size: .14rem;
+}
+#header .center {
+  margin: 0;
+  font-weight: normal;
+  line-height: 0.45rem;
+  color: #fff;
+}
+#header .right {
+  position: absolute;
+  width: 0.45rem;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  right: 0;
+  top: 0;
+  color: #fff;
+}
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 999;
+  width: 100%;
+  height: 0.45rem;
+  background-color: #006699;
+}
+#footer a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.05rem 0px;
+}
+#footer a.active {
+  color: orange;
+}
+#footer a i {
+  line-height: 0.14rem;
+  vertical-align: middle;
+}
+#footer a span {
+  display: block;
+  line-height: 0.14rem;
+  transform: translateY(-0.02rem);
+}
+/* 给中间主体部分高度也是100% */
